@@ -11,11 +11,12 @@
 }
 
 body {
-    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: top -500px left -257px, top 315px right -255px;
+    background-position: top -500px left -257px, bottom -500px right -257px;
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', monospace;
+    background-attachment: fixed;
 }
 
 .attribution {
