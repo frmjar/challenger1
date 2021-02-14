@@ -16,6 +16,7 @@ body {
     background-position: top -500px left -257px, top 315px right -255px;
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', monospace;
+    background-attachment: fixed;
     color: hsl(229, 23%, 23%);
 }
 
